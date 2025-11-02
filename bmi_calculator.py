@@ -1,3 +1,4 @@
+#bmi machine
 from time import sleep
 
 def bmi_calculator(weight, height):
@@ -23,7 +24,7 @@ def bmi_calculator(weight, height):
         case _:
             print(f"Your BMI is {bmi}. You are Morbid obese (class III). Seek medical help immediately")
             return
-    
+
 
 if __name__ == "__main__":
     while True:
@@ -35,3 +36,6 @@ if __name__ == "__main__":
 
         bmi_calculator(weight, height)
         sleep(0.5)
+
+
+
